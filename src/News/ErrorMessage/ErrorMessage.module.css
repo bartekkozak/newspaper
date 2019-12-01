@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+}
+
+.message {
+  color: red;
+  margin-right: 10px;
+}

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.image {
+  width: 100%;
+  max-width: 160px;
+  height: 100px;
+}
+
+.article {
+  margin: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-right: 15px;
+}
+
+.description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.date {
+  width: 100%;
+  max-width: 150px;
+}
+
+@media screen and (max-width: 480px) {
+  .image {
+    max-width: 120px;
+    height: 80px;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .date {
+    margin-top: 5px;
+  }
+}
