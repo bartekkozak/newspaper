@@ -5,6 +5,6 @@ import thunk from 'redux-thunk'
 
 export const middleware = compose(applyMiddleware(thunk))
 
-const initStore = (initialRootState = rootState) => createStore(rootReducer, initialRootState, middleware)
+const initStore = (initialRootState: object = rootState) => createStore(rootReducer, initialRootState, middleware)
 
 export default initStore
