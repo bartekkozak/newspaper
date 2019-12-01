@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.arrowContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.arrow {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: #524e4e;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 50%;
+    order: 2;
+  }
+}
