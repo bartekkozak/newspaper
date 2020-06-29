@@ -8,6 +8,7 @@ class App extends Component<{ store: Store }> {
     return (
       <Provider store={this.props.store}>
         <Layout />
+        <p>TEEST</p>
       </Provider>
     )
   }
